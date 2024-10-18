@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.container-fluid #boxBack {
+    font-family: "Roboto", sans-serif;
+}
+
+#loginbtn {
+    cursor: pointer;
+}
+
+.error_field {
+    color: crimson;
+    font-weight: 600;
+}
+
+/* CARD */
+.card:hover{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.card-images img {
+    aspect-ratio: 16 / 18;
+    object-fit: cover;
+    object-position: top;
+    background-position: center;
+}
+
+.card-images .card {
+    height: 100%;
+    border-radius: 0%;
+}
+
+.card-images .card-body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.card-images .card-text {
+    flex-grow: 1;
+}
+
+@media (max-width: 767.98px) {
+    .card-images .card .img-fit {
+        aspect-ratio: 1.45 / 2;
+    }
+}
+
+
+
+
+.card-body h5 {
+    color: rgb(18, 18, 18);
+    font-weight: 600;
+}
+.card-body p {
+    color: black;
+    font-size: small;
+}
+.card-body span {
+    color: rgb(80, 78, 78);
+    font-weight: 700;
+}
+.card-images .card {
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+#main-image .card:hover {
+    transform: translateY(-15px);
+}
+
+.card-body :nth-child(n):hover {
+    color: #09ab85;
+}
+
+.card-images .card {
+    transition: all 1s ease;
+}
+
+.card-images a {
+    text-decoration: none;
+}
+
+/* BEST SESLLER  */
+
+.bestseller-container {
+    margin-top: 70px;
+}
+
+/* BANNER AREA */
+#bannerSlider img {
+    width: 100%;
+    height: auto;
+}
+
+/* FILTER ACORDIAN */
+.filter-title {
+    border-bottom: 1px solid rgb(228, 221, 221);
+    cursor: pointer;
+}
+
+.filter-title span {
+    font-size: large;
+    color: rgb(45, 44, 44);
+    font-weight: 600;
+}
+.filter-title i {
+    font-size: 1.3rem;
+    /* font-weight: 400; */
+}
+
+#filter-price input {
+    border: none;
+    border-radius: 0px;
+    background-color: rgb(226, 229, 233);
+}
+
+/* FILTER PRICE RANGE */
+#slider-range .ui-slider-range {
+    background-color: #0d6450;
+}
+
+#slider-range .ui-slider-handle {
+    border-radius: 50%;
+    outline: none;
+    background-color: #0d6450;
+    top: -8px;
+    border-color: #0d6450;
+}
+#slider-range {
+    height: 0.4rem;
+    margin-top: 15px;
+    width: 97%;
+    float: right;
+}
+
+#filter-input input {
+    background-color: rgb(236, 234, 234);
+    border: none;
+    border-radius: 1px;
+    font: 900;
+    color: black;
+}
+
+/* SLICK SLIDER HOME AND ALL PAGE */
+.slide {
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  .slider{
+    width: 100%;
+    overflow: hidden;
+  }
